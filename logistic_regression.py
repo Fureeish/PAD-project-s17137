@@ -6,7 +6,6 @@ y = data['target']
 names = data['target_names']
 feature_names = data['feature_names']
 
-# x_train, y_train = x[:, :2], y
 x_train, y_train = x[:, :2], y
 
 from sklearn.model_selection import train_test_split
